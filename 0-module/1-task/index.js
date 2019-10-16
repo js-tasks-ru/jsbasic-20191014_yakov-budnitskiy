@@ -6,5 +6,5 @@
  */
 function sum(m, n) {
   return m + n;
-  /* новый код */
+  /* new version */
 }
