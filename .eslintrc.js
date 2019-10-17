@@ -24,8 +24,6 @@ module.exports = {
     'no-param-reassign': 'off',
     'class-methods-use-this': 'off',
     'max-len': ["error", { "code": 120 }],
-	'allowForLoopAfterthoughts': true,
-	'no-plusplus': 'off',
     'no-alert': 'off'
   },
 };
