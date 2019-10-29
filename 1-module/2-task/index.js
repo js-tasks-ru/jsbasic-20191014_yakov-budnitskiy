@@ -10,6 +10,20 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
+  const nameLength = name.length;
+  let res = true;
+  if (nameLength > 4 || nameLength < 1) {
+    res = false;
+  } else {
+    for (let i = 0; i < nameLength; i += 1) {
+      if (name[i] === ' ') {
+        res = false;
+        break;
+      }
+    }
+  }
+  alert(res);
+  return res;
 }
 
 function sayHello() {
