@@ -12,7 +12,7 @@ function pow(m, n) {
   return result;
 }
 
-const x = prompt('Какое число возводим в степень?', 1);
-const y = prompt('В какую степень возводим число?', 1);
+const x = prompt('enter the basis of the degree', 1);
+const y = prompt('enter the exponent', 1);
 
 alert(pow(x, y));
